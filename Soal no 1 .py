@@ -32,7 +32,8 @@ e2 = Node("200")
 e3 = Node("300")
 e4 = Node("400")
 
-list.headval.nextval = e3
+list.headval.nextval = e2
+e2.nextval = e3
 e3.nextval = e4
 
 list.AtEnd("500")  #insert data di akhir node
