@@ -1,0 +1,2 @@
+# Python
+implementasi linked list 
